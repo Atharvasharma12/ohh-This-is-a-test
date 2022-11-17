@@ -10,6 +10,7 @@ import SignUp from './SignUp';
 import Material from './Material';
 
 
+
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
 
       <Routes>
         <Route  path='/HomeSection' element = {<Home/>}></Route>
+        
         <Route path='/SignIn' element = {<SignIn/>}></Route>
         <Route path='/Page1' element = {<Page1/>}></Route>
         <Route path='/Page2' element = {<Page2/>}></Route>
@@ -26,7 +28,7 @@ function App() {
         <Route path='/Material' element = {<Material/>}></Route>
 
       </Routes> 
-    
+   
      </div>
      
     </>

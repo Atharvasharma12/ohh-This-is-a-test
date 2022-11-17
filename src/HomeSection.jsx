@@ -4,12 +4,13 @@ import "./HomeSection.css";
 import civilimage from './civil.jpg'
 import data_structureimage from './data_structure.jpg'
 import electricalimage from './electrical.jpg'
-
+import Video from './Video';
 function HomeSection() {
   return (
 
     
     <section className='home'>
+       <Video/>
     <div className='standParent'>
 
 
