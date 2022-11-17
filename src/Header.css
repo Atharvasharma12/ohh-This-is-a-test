@@ -75,146 +75,104 @@ body{
     width: 100%;
   }
 
-  
-.dropDown{
-    float: left;
-    overflow: hidden;
-}
-
-.dropDown .dropDownButton{
-    
-    border: none;
-    background: none;
-    color: #fff;
-    padding-top: 16px;
-}
-  
-.dropDownElements  {
-    display: none; 
-    float: none;
-    position: absolute;
-    background-color: #abc8c0;
-    z-index: 1;    
-}
-
-.dropDownElements a {
-    display: block;
-    float: none;
-    text-align: left;
-}
-
-.dropDownElements a:hover{
-    transition: .5s;
-    background-color: #5d707f;
-}
 
 
-.dropDown:hover .dropDownElements{
-    display: block;
-}
 
-.navbar{
-    padding-top: 3px;
+
+
+
+
+
+.navbar2{
+
     display: flex;
-    gap: 50px;
     justify-content: center;
-    color: white;
-    height: 50px;
-    text-align: center;
-    
+    z-index: 1;
 }
-.header .header-2 .navbar a{
-    color:#fff;
-    padding:10px;
+
+ul , li ,a {
+    list-style: none;
     text-decoration: none;
+    color: white;
+}
+
+.menu > li , .menu > a {
+    display: inline-block;
+
 }
 
 
- .header .header-2 .navbar .dropDown a {
-    color:black;
-} 
-.dropDown1{
-    float: left;
-    overflow: hidden;
-}
 
-.dropDown1 .dropDownButton1{
-    
-    border: none;
-    background: none;
-    color: #fff;
-    padding-top: 16px;
-}
-  
-.dropDownElements1  {
-    display: none; 
-    float: none;
-    position: absolute;
-    background-color: #abc8c0;
-    z-index: 1;    
-}
-
-.dropDownElements1 a {
+.menu a{
     display: block;
-    float: none;
-    text-align: left;
-}
-
-.dropDownElements1 a:hover{
-    transition: .5s;
+    padding: 20px 1.5rem;
     background-color: #5d707f;
-}
-
-
-.dropDown1:hover .dropDownElements1{
-    display: block;
-}
-
-
-
-.dropDown2{
-    float: left;
-    overflow: hidden;
-}
-
-.dropDown2 .dropDownButton2{
-    
-    border: none;
-    background: none;
-    color: #fff;
-    padding-top: 16px;
     
 }
-  
-.dropDownElements2  {
-    /* display: none;  */
-    float: none;
+
+.menu a:hover{
+    background-color:#5d707f;
+}
+
+.menu li {
+    position: relative;
+}
+
+.submenuOfBooks{
+    z-index: 2;
     position: absolute;
-    background-color: #abc8c0;
-    z-index: 1;   
-     
+    display: none;
 }
 
-.dropDownElements2 a {
-    display: block;
-    float: none;
-    
-    text-align: left;
-    
-}
-
-.dropDownElements2 a:hover{
-    transition: .5s;
-    background-color: #5d707f;
-}
-
-.departmentChildren{
-    background-color: black;
+.submenuOfDepartment{
     position: absolute;
-    left: 100px;
-
+    left: 75%;
+    top: 0px;
+    display: none;
 }
 
-.DepartmentDropDownButton :hover .departmentChildren {
-display: none;
+.submenuOfYear{
+    position: absolute;
+    left: 75%;
+    top: 2%;
+    display: none;
+}
+
+.menu li:hover > .submenuOfBooks {
+    display: block;
+    animation: slideup .3s ease;
+}
+
+.submenuOfBooks :hover > .submenuOfDepartment{
+    display: block;
+    animation: slideleft 0.3s ease;
+}
+
+.submenuOfBooks :hover > .submenuOfYear{
+    display: block;
+    animation: slideleft 0.3s ease;
+}
+
+
+@keyframes slideup {
+    0%  {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes slideleft {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+    
 }

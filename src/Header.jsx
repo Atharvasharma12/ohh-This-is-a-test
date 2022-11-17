@@ -30,60 +30,43 @@ function NavBar() {
     </div>
 
     <div class="header-2">
-        <nav class="navbar">
+        <nav class="navbar2">
 
-                        
-
-            <Link to='/HomeSection'>HOME</Link>
-                    <div class='dropDown'>
-                        <button class="dropDownButton">BOOKS</button>
-                        <div class="dropDownElements">
-                            
-                            {/* <a href='/Page1'>DEPARTMENT</a> */}
-                            <div class="branch">
-                                <ul>
-
-                            <button class="DepartmentDropDownButton">DEPARTMENT</button>
-                                <div className='departmentChildren'>
-                                <li>
-                                <a href='./page1'>CSIT</a>
-                                <a href='./page1'>IT</a>
-                                <a href='./page1'>CSE</a>
-                                <a href='./page1'>CIVIL</a>
-                                <a href='./page1'>MECHANICAL</a>
-                                <a href='./page1'>ELECTRICAL</a>
-                                <a href='./page1'>CS-IOT</a>
-                                <a href='./page1'>CS-DS</a>
-                                <a href='./page1'>CS-AIML</a>
+                  <ul className='menu' >
+    <li><a href="/HomeSection">HOME</a></li>
+                 <li><a href="page1">BOOKS</a>
+                            <ul className='submenuOfBooks'>
+                                <li><a href='/page1'>DEPARTMENT</a>
+                                    <ul className='submenuOfDepartment'>
+                                        <li><a href="/page1">CSIT</a></li>
+                                        <li><a href="/page1">IT</a></li>
+                                        <li><a href="/page1">CSE</a></li>
+                                        <li><a href="/page1">CIVIL</a></li>
+                                        <li><a href="/page1">MECHANICAL</a></li>
+                                        <li><a href="/page1">ELECTRICAL</a></li>
+                                    </ul>
                                 </li>
-                            </div>
-                                </ul>
-                            </div>
-                            <a href='/Page1'>YEAR</a>
-                            <div class="year">
+                                <li><a href='/page2'>YEAR</a>
+                                    <ul className='submenuOfYear'>
+                                        <li><a href="/page2">I</a></li>
+                                        <li><a href="/page2">II</a></li>
+                                        <li><a href="/page2">III</a></li>
+                                        <li><a href="/page2">IV</a></li>
+                                    </ul>
+                                </li>
+                             </ul>
+                 </li>
+    <li><a href="#">NOTES</a></li>
+    <li><a href="./Material">MATERIAL</a></li>
+    <li><Link to='/SignIn'>REGISTER</Link></li>
+    
 
-                                <a href='./page2'>I</a>
-                                <a href='./page2'>II</a>
-                                <a href='./page2'>III</a>
-                                <a href='./page2'>IV</a>
-                                
+  </ul>
 
-                            </div>
-                            <a href='/Page3'>SUBJECT</a>   
-                        </div>
-                    </div>
-            <a href="#NOTES">NOTES</a>
-            <a href='./Material'>MATERIALS</a>
-            
-            <div class='dropDown1'>
-                <button class="dropDownButton1">QUESTION PAPERS</button>
-                <div class="dropDownElements1">
-                            <a href='/Rgpv'>RGPV QUESTIONS PAPER</a>
-                            <a href='/Page2'>GATE QUESTIONS PAPER</a>  
-                        </div>
-                </div>
-            {/* <a href="#QUESTIONPAPERS">QUESTION PAPERS</a> */}
-            <Link to='/SignIn'>SIGN IN</Link>
+
+      
+
+          
         </nav>
     </div>
 </header>
