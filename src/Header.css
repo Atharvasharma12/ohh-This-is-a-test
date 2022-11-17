@@ -198,6 +198,7 @@ body{
 .dropDownElements2 a {
     display: block;
     float: none;
+    
     text-align: left;
     
 }
