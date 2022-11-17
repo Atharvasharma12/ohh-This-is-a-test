@@ -1,0 +1,22 @@
+
+
+
+.signIn{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.signInForm{
+    width: 20%;
+    background-color: #cbdfe5;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 16px;
+    box-shadow: 0 0 35px 3px grey;
+}
+
+.box{
+    padding: 10px;
+    width: 92%;
+    height: 10p;
+}

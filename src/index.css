@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.header{
+    box-sizing: border-box;
+    background-color: #5d707f;
+    padding-bottom: 10px;
+}
+
+#navbar_elements{
+    justify-content: center;
+    padding: 37px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    
+}
+.header-1{
+    background-color: white;
+    padding-top: 4px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none; 
+}
+
+.search-form{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #5d707f;
+    align-items: center;
+    width: 20rem;
+    padding: 5px 31px;
+    border-radius: 6px;
+}
+
+.search-form input{
+    background-color: inherit;
+}
+
+.signInHeader{
+    display: flex;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 5px ;
+}
+
+.signInHeader input{
+    background-color: inherit;
+}
+
+.header-1 label:hover{
+    color: #5d707f;
+}
+
+.header input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: none;
+    outline: none;
+    width: 100%;
+  }
+
+  
+.dropDown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropDown .dropDownButton{
+    
+    border: none;
+    background: none;
+    color: #fff;
+    padding-top: 16px;
+}
+  
+.dropDownElements  {
+    display: none; 
+    float: none;
+    position: absolute;
+    background-color: #abc8c0;
+    z-index: 1;    
+}
+
+.dropDownElements a {
+    display: block;
+    float: none;
+    text-align: left;
+}
+
+.dropDownElements a:hover{
+    transition: .5s;
+    background-color: #5d707f;
+}
+
+
+.dropDown:hover .dropDownElements{
+    display: block;
+}
+
+.navbar{
+    padding-top: 3px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    color: white;
+    height: 50px;
+    text-align: center;
+    
+}
+.header .header-2 .navbar a{
+    color:#fff;
+    padding:10px;
+    text-decoration: none;
+}
+
+
+.header .header-2 .navbar .dropDown a {
+    color: black;
+}
