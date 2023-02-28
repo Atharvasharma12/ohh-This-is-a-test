@@ -5,12 +5,13 @@ import civilimage from './civil.jpg'
 import data_structureimage from './data_structure.jpg'
 import electricalimage from './electrical.jpg'
 import Video from './Video';
-function HomeSection() {
+function HomeSection(props) {
   return (
 
     
     <section className='home'>
        <Video/>
+      
     <div className='standParent'>
 
 

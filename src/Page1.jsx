@@ -4,7 +4,7 @@ import "./Item.css"
 const data=[
     {
       name:"book1",
-     rate:20,
+     rate:10,
      url:"book1.jpg"
     },
     {
@@ -14,42 +14,42 @@ const data=[
     },
     {
       name:"book3",
-     rate:20,
+     rate:30,
      url:"book1.jpg"
     },
     {
       name:"book4",
-     rate:20,
+     rate:40,
      url:"book1.jpg"
     },
     {
       name:"book5",
-     rate:20,
+     rate:50,
      url:"book1.jpg"
     },
     {
-      name:"book4",
-     rate:20,
+      name:"book6",
+     rate:60,
      url:"book1.jpg"
     },
     {
-      name:"book5",
-     rate:20,
+      name:"book7",
+     rate:70,
      url:"book1.jpg"
     },
     {
-      name:"book4",
-     rate:20,
+      name:"book8",
+     rate:80,
      url:"book1.jpg"
     },
     {
-      name:"book5",
-     rate:20,
+      name:"book9",
+     rate:90,
      url:"book1.jpg"
     },
     {
-      name:"book4",
-     rate:20,
+      name:"book10",
+     rate:100,
      url:"book1.jpg"
     },
     
@@ -63,26 +63,7 @@ const data=[
      rate:20,
      url:"book1.jpg"
     },
-    {
-      name:"book5",
-     rate:20,
-     url:"book1.jpg"
-    },
-    {
-      name:"book5",
-     rate:20,
-     url:"book1.jpg"
-    },
-    {
-      name:"book5",
-     rate:20,
-     url:"book1.jpg"
-    },
-    {
-      name:"book5",
-     rate:20,
-     url:"book1.jpg"
-    },
+  
   ];
   
 const Page1=()=>{

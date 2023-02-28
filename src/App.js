@@ -1,4 +1,5 @@
 import './App.css';
+// import { useState } from 'react';
 import NavBar from './Header';
 import Home from './HomeSection';
 import SignIn from './SignIn';
@@ -11,14 +12,25 @@ import Material from './Material';
 
 
 
+
+
+
 function App() {
+  
+
+
+ 
+
+
   return (
+    
     <>
-    <NavBar/>
+
+    <NavBar count/>
      <div>
 
       <Routes>
-        <Route  path='/HomeSection' element = {<Home/>}></Route>
+        <Route  path='/HomeSection' element = {<Home />}></Route>
         <Route path='/SignIn' element = {<SignIn/>}></Route>
         <Route path='/Page1' element = {<Page1/>}></Route>
         <Route path='/Page2' element = {<Page2/>}></Route>

@@ -1,36 +1,37 @@
 img{
     width:190px;
-    transform: scale(0.8);
+    transform: scale(0.8);   
+    transition: .5s;
     
     
 }
 .item{
-    text-align: center;
-   
-    background-color: white;
-        float: left;
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
     
+    text-align: center;
+    background-color: white;
+        width: 300px;
+        height: 388px;   
+        
 }
-.item:hover{
-    transform: scale(1.03)
+  
+
+.item img:hover{
+    transform: scale(.9);
+    transition: .2s;
 }
 h3{
-    
     color:black;
   margin: 0px;
   padding: 0px; 
 }
 h4{
     margin:5px;
-    padding:0px;
+    padding:10px;
 }
 .ArrayDAta{
     height: 150vh;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     width: 100%;
     /* background-color: black; */
     /* margin-left: 10%; */

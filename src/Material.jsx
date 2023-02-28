@@ -44,38 +44,38 @@ const data=[
     },
     {
       name:"book5",
-     rate:20,
+     rate:50,
      url:"book1.jpg"
     },
     {
       name:"book4",
-     rate:20,
+     rate:44,
      url:"book1.jpg"
     },
     
     {
-      name:"book5",
-     rate:20,
+      name:"book55",
+     rate:555,
      url:"book1.jpg"
     },
     {
-      name:"book5",
-     rate:20,
+      name:"book50",
+     rate:500,
      url:"book1.jpg"
     },
     {
-      name:"book5",
-     rate:20,
+      name:"book6",
+     rate:60,
      url:"book1.jpg"
     },
     {
-      name:"book5",
-     rate:20,
+      name:"book7",
+     rate:77,
      url:"book1.jpg"
     },
     {
-      name:"book5",
-     rate:20,
+      name:"book8",
+     rate:80,
      url:"book1.jpg"
     },
    

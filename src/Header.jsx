@@ -11,7 +11,6 @@ import {Link} from 'react-router-dom';
 function NavBar() {
   return (
     <container>
-
     <header class="header">
     <div class="header-1">
         <Link to={"logo"} class="logo"> <img src='logo1.gif' alt = "logo"></img> </Link>
@@ -24,6 +23,7 @@ function NavBar() {
             <label><PersonIcon/></label>
         </form>
         <div class="header_icons">
+            
             <label><ShoppingCartIcon/></label>
             <label><FavoriteBorderIcon/></label>
         </div>
@@ -33,41 +33,37 @@ function NavBar() {
         <nav class="navbar2">
 
                   <ul className='menu' >
-    <li><a href="/HomeSection">HOME</a></li>
-                 <li><a href="page1">BOOKS</a>
+    <li><Link to="/HomeSection">HOME</Link></li>
+                 <li><Link to="page1">BOOKS</Link>
                             <ul className='submenuOfBooks'>
-                                <li><a href='/page1'>DEPARTMENT</a>
+                                <li><Link to='/page1'>DEPARTMENT</Link>
                                     <ul className='submenuOfDepartment'>
-                                        <li><a href="/page1">CSIT</a></li>
-                                        <li><a href="/page1">IT</a></li>
-                                        <li><a href="/page1">CSE</a></li>
-                                        <li><a href="/page1">CIVIL</a></li>
-                                        <li><a href="/page1">MECHANICAL</a></li>
-                                        <li><a href="/page1">ELECTRICAL</a></li>
+                                        <li><Link to="/page1">CSIT</Link></li>
+                                        <li><Link to="/page1">IT</Link></li>
+                                        <li><Link to="/page1">CSE</Link></li>
+                                        <li><Link to="/page1">CIVIL</Link></li>
+                                        <li><Link to="/page1">MECHANICAL</Link></li>
+                                        <li><Link to="/page1">ELECTRICAL</Link></li>
                                     </ul>
                                 </li>
-                                <li><a href='/page2'>YEAR</a>
+                                <li><Link to='/page2'>YEAR</Link>
                                     <ul className='submenuOfYear'>
-                                        <li><a href="/page2">I</a></li>
-                                        <li><a href="/page2">II</a></li>
-                                        <li><a href="/page2">III</a></li>
-                                        <li><a href="/page2">IV</a></li>
+                                        <li><Link to="/page2">I</Link></li>
+                                        <li><Link to="/page2">II</Link></li>
+                                        <li><Link to="/page2">III</Link></li>
+                                        <li><Link to="/page2">IV</Link></li>
                                     </ul>
                                 </li>
                              </ul>
                  </li>
-    <li><a href="#">NOTES</a></li>
-    <li><a href="./Material">MATERIAL</a></li>
+    <li><Link to="#">NOTES</Link></li>
+    <li><Link to="./Material">MATERIAL</Link></li>
     <li><Link to='/SignIn'>REGISTER</Link></li>
     
 
   </ul>
 
-
-      
-
-          
-        </nav>
+    </nav>
     </div>
 </header>
 </container>
