@@ -14,8 +14,8 @@ function SignIn() {
         <span>Password</span><br />
         <input type="password" name="" class="box" placeholder="enter your password" id=""></input><br />
         <input type="submit" value="sign in" class="btn"></input>
-        <p>forget password ? <a href="#signin">click here</a></p>
-        <p>don't have an account ? <a href="./SignUp">create one</a></p>
+        <p>forget password ? <a href="#signin" className='changeCOlor'>click here</a></p>
+        <p>don't have an account ? <a href="./SignUp" className='changeCOlor'>create one</a></p>
         </form>
 
 </div>
